@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:block/cube_column",
-	"textures": {
-	  "end": "item/eldritch_eye_top",
-	  "side": "item/eldritch_eye_side"
-	}
-  }

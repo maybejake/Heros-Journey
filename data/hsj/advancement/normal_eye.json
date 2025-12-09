@@ -9,11 +9,16 @@
             "condition": "minecraft:all_of",
             "terms": [
               {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": "minecraft:ender_eye"
+                }
+              },
+              {
                 "condition": "minecraft:inverted",
                 "term": {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": "minecraft:ender_eye",
                     "predicates": {
                       "minecraft:custom_data": "{hsj_eye:1b}"
                     }

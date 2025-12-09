@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:block/cube_column",
-	"textures": {
-	  "end": "item/curious_eye_top",
-	  "side": "item/curious_eye_side"
-	}
-  }

@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:block/cube_column",
-	"textures": {
-	  "end": "item/beastmasters_eye_top",
-	  "side": "item/beastmasters_eye_side"
-	}
-  }

@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:block/cube_column",
-	"textures": {
-	  "end": "item/spellbound_eye_top",
-	  "side": "item/spellbound_eye_side"
-	}
-  }

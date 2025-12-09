@@ -1,6 +1,6 @@
 scoreboard players set @s hsj_raycast_hit 1
 
-execute if entity @s[tag=hsj_real_eye_ray] run return run function hsj:eyes/real/replace
+execute if entity @s[tag=hsj_real_eye_ray] align xyz positioned ~0.5 ~0.5 ~0.5 unless entity @n[type=minecraft:item_display,tag=hsj_display,distance=..0.5] run return run function hsj:eyes/real/replace
 
 execute unless entity @n[tag=hsj_display,distance=..10] align xyz positioned ~0.5 ~0.5 ~0.5 run function hsj:remove/start
 
