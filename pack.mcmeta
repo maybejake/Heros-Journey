@@ -1,10 +1,13 @@
 {
-   "pack":{
-      "pack_format":64,
-      "description":"A journey to The End!",
+  "id": "heros-journey",
+  "pack":{
+    "pack_format":69,
+    "max_format": 75,
+    "min_format": 55,
+    "description":"A journey to The End!",
     "supported_formats": {
-      "max_inclusive": 64,
+      "max_inclusive": 75,
       "min_inclusive": 55
     }
-   }
+  }
 }
