@@ -1,1 +1,3 @@
-execute align xyz run summon minecraft:item ~0.5 ~0.6 ~0.5 {Item: {count: 1, id: "minecraft:ender_eye", components: {"minecraft:custom_name": ["", {translate: "hsj.aquatic", fallback: "Aquatic Eye", italic: false}], "minecraft:custom_model_data": {strings: ["hsj:aquatic_eye"]}, "minecraft:custom_data": {hsj_eye: true, smithed: {ignore: {functionality: true, crafting: true}}, hsj_aquatic: true}, "minecraft:rarity": "epic"}}}
+scoreboard players set $catch_check hsj.dummy 0
+execute at @a[tag=hsj.rod_hooked] as @e[type=minecraft:item, distance=..100] run function hsj:eyes/aquatic/on_catch
+tag @a[tag=hsj.rod_hooked] remove hsj.rod_hooked
