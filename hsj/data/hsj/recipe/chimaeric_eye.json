@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "teg",
+    " r "
+  ],
+  "key": {
+    "a": [
+      "minecraft:armadillo_scute"
+    ],
+    "t": [
+      "minecraft:turtle_scute"
+    ],
+    "e": [
+      "minecraft:ender_eye"
+    ],
+    "g": [
+      "minecraft:goat_horn"
+    ],
+    "r": [
+      "minecraft:rabbit_hide"
+    ]
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.chimaeric_eye"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:item_name": [{"translate":"hsj.chimaeric_eye","fallback":"Chimaeric Eye"}],
+      "minecraft:item_model": "hsj:chimaeric_eye",
+      "minecraft:lore": [{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+      "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+      "minecraft:use_effects": {"can_sprint":true,"speed_multiplier":1,"interact_vibrations":true},
+      "minecraft:food": {"nutrition":0,"saturation":0,"can_always_eat":true}
+    }
+  }
+}
