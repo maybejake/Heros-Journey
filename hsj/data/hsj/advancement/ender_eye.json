@@ -3,7 +3,6 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "player": [],
         "location": [
           {
             "condition": "minecraft:all_of",
@@ -28,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "hsj:eyes/real/setup"
+    "function": "hsj:ender_eye/main"
   }
 }
