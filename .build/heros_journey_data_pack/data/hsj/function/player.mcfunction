@@ -3,3 +3,4 @@ execute if score @s hsj_creaking_killed matches 1.. run function hsj:eyes/amber/
 execute if score @s hsj_evoker_killed matches 1.. run function hsj:eyes/bound/loot/roll
 execute if score @s hsj_wither_killed matches 1.. run function hsj:eyes/withered/loot/roll
 execute if score @s hsj_elder_killed matches 1.. run function hsj:eyes/elder/loot/roll
+execute if score @s hsj.use_cooldown matches 1.. run function hsj:cooldown

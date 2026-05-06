@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:block/cube_column",
-	"textures": {
-	  "end": "hsj:item/golden_eye_top",
-	  "side": "hsj:item/golden_eye_side"
-	}
-  }

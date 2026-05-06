@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hsj:block/ominous_eye"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "hsj:item/ominous_eye"
+    },
+    "property": "minecraft:display_context"
+  }
+}

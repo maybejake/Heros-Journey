@@ -1,19 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:ender_eye",
+      "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:custom_model_data": {"strings":["hsj:eldritch_eye"]}
+        "minecraft:item_model": "hsj:eldritch_eye"
       }
     },
-    "title": {
-      "translate": "hsj.adv_eldritch_title",
-      "fallback": "The Eldritch Eye"
-    },
-    "description": {
-      "translate": "hsj.adv_eldritch_desc",
-      "fallback": "Find the Eldritch Eye in a archaic city deep beneath the surface"
-    },
+    "title": {"translate":"hsj.adv_eldritch.name","fallback":"The eldritch Eye"},
+    "description": [{"translate":"hsj.adv_eldritch.desc","fallback":"Find the Eldritch Eye in a archaic city deep beneath the surface"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -25,9 +19,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ender_eye",
-            "components": {
-              "minecraft:custom_data": "{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_eldritch:1b}"
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.eldritch_eye"}}}
             }
           }
         ]

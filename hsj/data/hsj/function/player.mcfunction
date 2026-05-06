@@ -12,3 +12,5 @@ execute if score @s hsj_wither_killed matches 1.. run function hsj:eyes/withered
 
 #elder eye
 execute if score @s hsj_elder_killed matches 1.. run function hsj:eyes/elder/loot/roll
+
+execute if score @s hsj.use_cooldown matches 1.. run function hsj:cooldown

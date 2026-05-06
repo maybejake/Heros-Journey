@@ -1,4 +1,4 @@
-tellraw @a ["", {text: "Hero's Journey ", color: "dark_purple", bold: true}, {translate: "hsj.loaded", fallback: "loaded!", color: "white", bold: false}]
+tellraw @a [{translate: "hsj.tooltip", font: "hsj:tooltip", color: "white", italic: false}, {translate: "hsj.loaded", font: "minecraft:default", fallback: " loaded!", color: "white", bold: false}]
 scoreboard objectives add hsj_raycast_hit dummy
 scoreboard objectives add hsj_raycast_distance dummy
 scoreboard objectives add hsj_eye_x dummy
@@ -14,3 +14,5 @@ scoreboard objectives add hsj_evoker_killed minecraft.killed:minecraft.evoker
 scoreboard objectives add hsj_wither_killed minecraft.killed:minecraft.wither
 scoreboard objectives add hsj_elder_killed minecraft.killed:minecraft.elder_guardian
 schedule function hsj:tick_20 20 replace
+scoreboard objectives add hsj.use_cooldown dummy
+scoreboard objectives add hsj.dummy dummy

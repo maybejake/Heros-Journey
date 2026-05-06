@@ -1,0 +1,6 @@
+{
+	"parent": "hsj:block/portal_eye",
+	"textures": {
+		"0": "hsj:block/golden_eye"
+	}
+}

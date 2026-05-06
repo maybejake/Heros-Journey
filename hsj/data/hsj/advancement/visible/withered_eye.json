@@ -1,19 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:ender_eye",
+      "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:custom_model_data": {"strings":["hsj:withered_eye"]}
+        "minecraft:item_model": "hsj:withered_eye"
       }
     },
-    "title": {
-      "translate": "hsj.adv_withered_title",
-      "fallback": "The Withered Eye"
-    },
-    "description": {
-      "translate": "hsj.adv_withered_desc",
-      "fallback": "Retrieve the Withered Eye from a beast with three heads"
-    },
+    "title": {"translate":"hsj.adv_withered.name","fallback":"The Withered Eye"},
+    "description": [{"translate":"hsj.adv_withered.desc","fallback":"Retrieve the Withered Eye from a beast with three heads"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -25,9 +19,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ender_eye",
-            "components": {
-              "minecraft:custom_data": "{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_withered:1b}"
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.withered_eye"}}}
             }
           }
         ]

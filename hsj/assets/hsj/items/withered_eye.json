@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hsj:block/withered_eye"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "hsj:item/withered_eye"
+    },
+    "property": "minecraft:display_context"
+  }
+}

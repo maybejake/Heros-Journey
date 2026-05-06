@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.golden_eye"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:item_name": [{"translate":"hsj.golden_eye","fallback":"Golden Eye"}],
+                "minecraft:item_model": "hsj:golden_eye",
+                "minecraft:lore": [{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+                "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+                "minecraft:use_effects": {"can_sprint":true,"speed_multiplier":1,"interact_vibrations":true},
+                "minecraft:food": {"nutrition":0,"saturation":0,"can_always_eat":true},
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+execute if entity @s[type=minecraft:cave_spider] run function hsj.iris:get_hitbox/entity/shape_groups/cave_spider
+execute if entity @s[type=#hsj.iris:shape_groups/chest_minecart] run function hsj.iris:get_hitbox/entity/shape_groups/chest_minecart
+execute if entity @s[type=minecraft:chicken] run function hsj.iris:get_hitbox/entity/shape_groups/chicken
+execute if entity @s[type=minecraft:cod] run function hsj.iris:get_hitbox/entity/shape_groups/cod
+execute if entity @s[type=#hsj.iris:shape_groups/cow] run function hsj.iris:get_hitbox/entity/shape_groups/cow
+execute if entity @s[type=minecraft:creaking] run function hsj.iris:get_hitbox/entity/shape_groups/creaking
+execute if entity @s[type=minecraft:creeper] run function hsj.iris:get_hitbox/entity/shape_groups/creeper
+execute if entity @s[type=minecraft:dolphin] run function hsj.iris:get_hitbox/entity/shape_groups/dolphin
+execute if entity @s[type=minecraft:donkey] run function hsj.iris:get_hitbox/entity/shape_groups/donkey
+execute if entity @s[type=#hsj.iris:shape_groups/dragon_fireball] run function hsj.iris:get_hitbox/entity/shape_groups/dragon_fireball
+execute if entity @s[type=#hsj.iris:shape_groups/drowned] run function hsj.iris:get_hitbox/entity/shape_groups/drowned
+execute if entity @s[type=#hsj.iris:shape_groups/egg] run function hsj.iris:get_hitbox/entity/shape_groups/egg
+execute if entity @s[type=minecraft:elder_guardian] run function hsj.iris:get_hitbox/entity/shape_groups/elder_guardian
+execute if entity @s[type=minecraft:copper_golem] run function hsj.iris:get_hitbox/entity/shape_groups/copper_golem

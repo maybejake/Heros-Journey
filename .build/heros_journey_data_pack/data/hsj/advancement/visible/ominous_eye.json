@@ -1,19 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:ender_eye",
+      "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:custom_model_data": {"strings":["hsj:ominous_eye"]}
+        "minecraft:item_model": "hsj:ominous_eye"
       }
     },
-    "title": {
-      "translate": "hsj.adv_ominous_title",
-      "fallback": "The Ominous Eye"
-    },
-    "description": {
-      "translate": "hsj.adv_ominous_desc",
-      "fallback": "Find the Ominous Eye in a chamber's vault"
-    },
+    "title": {"translate":"hsj.adv_ominous.name","fallback":"The Ominous Eye"},
+    "description": [{"translate":"hsj.adv_ominous.desc","fallback":"Find the Ominous Eye at the end of an arduous trial"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -25,9 +19,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ender_eye",
-            "components": {
-              "minecraft:custom_data": "{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_ominous:1b}"
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.ominous_eye"}}}
             }
           }
         ]

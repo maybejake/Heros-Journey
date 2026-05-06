@@ -1,19 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:ender_eye",
+      "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:custom_model_data": {"strings":["hsj:archaic_eye"]}
+        "minecraft:item_model": "hsj:archaic_eye"
       }
     },
-    "title": {
-      "translate": "hsj.adv_archaic_title",
-      "fallback": "The Archaic Eye"
-    },
-    "description": {
-      "translate": "hsj.adv_archaic_desc",
-      "fallback": "Find the Archaic Eye while rediscovering the past"
-    },
+    "title": {"translate":"hsj.adv_archaic.name","fallback":"The Archaic Eye"},
+    "description": [{"translate":"hsj.adv_archaic.desc","fallback":"Find the Archaic Eye while rediscovering the past"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -25,9 +19,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ender_eye",
-            "components": {
-              "minecraft:custom_data": "{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_archaic:1b}"
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.archaic_eye"}}}
             }
           }
         ]

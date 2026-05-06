@@ -1,19 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:ender_eye",
+      "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:custom_model_data": {"strings":["hsj:queens_eye"]}
+        "minecraft:item_model": "hsj:queens_eye"
       }
     },
-    "title": {
-      "translate": "hsj.adv_queens_title",
-      "fallback": "The Queen's Eye"
-    },
-    "description": {
-      "translate": "hsj.adv_queens_desc",
-      "fallback": "Find the Queen's Eye within a hive"
-    },
+    "title": {"translate":"hsj.adv_queens.name","fallback":"The Queen's Eye"},
+    "description": [{"translate":"hsj.adv_queens.desc","fallback":"Find the Queen's Eye within a hive"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -25,9 +19,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ender_eye",
-            "components": {
-              "minecraft:custom_data": "{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_queens:1b}"
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.queens_eye"}}}
             }
           }
         ]

@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "hsj:block/forged_eye"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "hsj:block/forged_eye_extra"
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "hsj:item/forged_eye"
+    },
+    "property": "minecraft:display_context"
+  }
+}

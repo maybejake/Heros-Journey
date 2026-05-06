@@ -15,17 +15,6 @@
                 }
               },
               {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:custom_data": "{hsj_eye:1b}"
-                    }
-                  }
-                }
-              },
-              {
                 "condition": "minecraft:block_state_property",
                 "block": "minecraft:end_portal_frame",
                 "properties": {

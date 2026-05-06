@@ -3,12 +3,9 @@
       "icon": {
         "id": "minecraft:ender_eye"
       },
-      "title": "Hero's Journey",
-      "description": {
-        "translate": "hsj.adv_root_desc",
-        "fallback": "A journey to The End!"
-      },
-      "background": "minecraft:entity/end_portal",
+      "title": {"translate":"hsj.adv_root.name","fallback":"Gateway"},
+      "description": [{"translate":"hsj.adv_root.desc","fallback":"Endward bound"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+      "background": "minecraft:block/obsidian",
       "show_toast": false,
       "announce_to_chat": false
     },

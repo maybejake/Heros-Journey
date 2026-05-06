@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"Hero's Journey ","color":"dark_purple","bold":true},{"translate":"hsj.loaded","fallback":"loaded!","color":"white","bold":false}]
+tellraw @a [{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false},{"translate":"hsj.loaded","font":"minecraft:default","fallback":" loaded!","color":"white","bold":false}]
 
 #raycast
 scoreboard objectives add hsj_raycast_hit dummy
@@ -35,4 +35,7 @@ scoreboard objectives add hsj_wither_killed minecraft.killed:minecraft.wither
 scoreboard objectives add hsj_elder_killed minecraft.killed:minecraft.elder_guardian
 
 #tick 20
-schedule function hsj:tick_20 20t replace 
+schedule function hsj:tick_20 20t replace
+
+scoreboard objectives add hsj.use_cooldown dummy
+scoreboard objectives add hsj.dummy dummy

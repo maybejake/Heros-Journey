@@ -1,0 +1,14 @@
+execute if entity @s[type=#hsj.iris:shape_groups/acacia_boat] run function hsj.iris:get_hitbox/entity/shape_groups/acacia_boat
+execute if entity @s[type=minecraft:allay] run function hsj.iris:get_hitbox/entity/shape_groups/allay
+execute if entity @s[type=minecraft:area_effect_cloud] run function hsj.iris:get_hitbox/entity/shape_groups/area_effect_cloud
+execute if entity @s[type=minecraft:armadillo] run function hsj.iris:get_hitbox/entity/shape_groups/armadillo
+execute if entity @s[type=#hsj.iris:shape_groups/arrow] run function hsj.iris:get_hitbox/entity/shape_groups/arrow
+execute if entity @s[type=minecraft:axolotl] run function hsj.iris:get_hitbox/entity/shape_groups/axolotl
+execute if entity @s[type=#hsj.iris:shape_groups/bat] run function hsj.iris:get_hitbox/entity/shape_groups/bat
+execute if entity @s[type=minecraft:bee] run function hsj.iris:get_hitbox/entity/shape_groups/bee
+execute if entity @s[type=#hsj.iris:shape_groups/blaze] run function hsj.iris:get_hitbox/entity/shape_groups/blaze
+execute if entity @s[type=#hsj.iris:shape_groups/bogged] run function hsj.iris:get_hitbox/entity/shape_groups/bogged
+execute if entity @s[type=minecraft:breeze] run function hsj.iris:get_hitbox/entity/shape_groups/breeze
+execute if entity @s[type=#hsj.iris:shape_groups/breeze_wind_charge] run function hsj.iris:get_hitbox/entity/shape_groups/breeze_wind_charge
+execute if entity @s[type=minecraft:camel] run function hsj.iris:get_hitbox/entity/shape_groups/camel
+execute if entity @s[type=#hsj.iris:shape_groups/cat] run function hsj.iris:get_hitbox/entity/shape_groups/cat

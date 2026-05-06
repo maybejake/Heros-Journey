@@ -1,0 +1,14 @@
+execute if entity @s[type=minecraft:end_crystal] run function hsj.iris:get_hitbox/entity/shape_groups/end_crystal
+execute if entity @s[type=minecraft:ender_dragon] run function hsj.iris:get_hitbox/entity/shape_groups/ender_dragon
+execute if entity @s[type=minecraft:enderman] run function hsj.iris:get_hitbox/entity/shape_groups/enderman
+execute if entity @s[type=#hsj.iris:shape_groups/endermite] run function hsj.iris:get_hitbox/entity/shape_groups/endermite
+execute if entity @s[type=minecraft:evoker_fangs] run function hsj.iris:get_hitbox/entity/shape_groups/evoker_fangs
+execute if entity @s[type=#hsj.iris:shape_groups/falling_block] run function hsj.iris:get_hitbox/entity/shape_groups/falling_block
+execute if entity @s[type=#hsj.iris:shape_groups/ghast] run function hsj.iris:get_hitbox/entity/shape_groups/ghast
+execute if entity @s[type=minecraft:giant] run function hsj.iris:get_hitbox/entity/shape_groups/giant
+execute if entity @s[type=#hsj.iris:shape_groups/glow_squid] run function hsj.iris:get_hitbox/entity/shape_groups/glow_squid
+execute if entity @s[type=#hsj.iris:shape_groups/goat] run function hsj.iris:get_hitbox/entity/shape_groups/goat
+execute if entity @s[type=minecraft:guardian] run function hsj.iris:get_hitbox/entity/shape_groups/guardian
+execute if entity @s[type=#hsj.iris:shape_groups/hoglin] run function hsj.iris:get_hitbox/entity/shape_groups/hoglin
+execute if entity @s[type=#hsj.iris:shape_groups/horse] run function hsj.iris:get_hitbox/entity/shape_groups/horse
+execute if entity @s[type=minecraft:iron_golem] run function hsj.iris:get_hitbox/entity/shape_groups/iron_golem

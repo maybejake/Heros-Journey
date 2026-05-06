@@ -1,0 +1,20 @@
+{
+    "values": [
+        {
+            "id": "minecraft:falling_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:tnt",
+            "required": false
+        },
+        {
+            "id": "minecraft:nautilus",
+            "required": false
+        },
+        {
+            "id": "minecraft:nautilus",
+            "required": false
+        }
+    ]
+}

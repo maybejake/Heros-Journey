@@ -1,5 +1,6 @@
 {
   "values": [
-    "hsj:loaded"
+    "hsj:loaded",
+    "hsj.iris:setup/load"
    ] 
 }
