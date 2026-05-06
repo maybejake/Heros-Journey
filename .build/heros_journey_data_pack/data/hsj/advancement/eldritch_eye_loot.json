@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "hsj:eyes/eldritch/loot/setup"
+    "function": "hsj:eyes/eldritch/main"
   }
 }

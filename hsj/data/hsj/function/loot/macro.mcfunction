@@ -1,0 +1,1 @@
+$loot replace block ~ ~ ~ container.$(slot) loot $(loot_table)

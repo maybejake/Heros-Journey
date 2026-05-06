@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "hsj:eyes/curious/loot/setup"
+    "function": "hsj:eyes/curious/main"
   }
 }

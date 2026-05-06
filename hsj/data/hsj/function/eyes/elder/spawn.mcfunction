@@ -1,1 +1,4 @@
-execute align xyz run summon minecraft:item ~0.5 ~0.6 ~0.5 {Item:{count:1,id:"minecraft:ender_eye",components:{"minecraft:custom_name":["",{"translate":"hsj.elder","fallback":"Elder Eye","italic":false}],"minecraft:custom_model_data":{"strings":["hsj:elder_eye"]},"minecraft:custom_data":{"hsj_eye":true,"smithed":{"ignore":{"functionality":true,"crafting":true}},"hsj_elder":true},"minecraft:rarity":"epic"}}}
+scoreboard players set $sponge_check hsj.dummy 0
+
+execute at @a[tag=hsj.elder_guardian_killer] as @e[type=minecraft:item,predicate=hsj:wet_sponge,distance=..100] at @s run function hsj:eyes/elder/on_sponge
+tag @a[tag=hsj.elder_guardian_killer] remove hsj.elder_guardian_killer

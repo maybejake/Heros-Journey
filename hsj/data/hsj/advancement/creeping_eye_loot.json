@@ -3,11 +3,11 @@
     "requirement": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/pillager_outpost"
+        "loot_table": "minecraft:chests/desert_pyramid"
       }
     }
   },
   "rewards": {
-    "function": "hsj:eyes/curious/main"
+    "function": "hsj:eyes/creeping/main"
   }
 }
