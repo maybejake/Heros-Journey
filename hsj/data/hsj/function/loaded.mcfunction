@@ -23,7 +23,7 @@ scoreboard objectives add hsj_reach dummy
 scoreboard objectives add hsj_fish_caught minecraft.custom:minecraft.fish_caught
 
 #amber eye source
-scoreboard objectives add hsj_creaking_killed minecraft.killed:minecraft.creaking
+scoreboard objectives add hsj.creaking_killed minecraft.killed:minecraft.creaking
 
 #bound eye source
 scoreboard objectives add hsj_evoker_killed minecraft.killed:minecraft.evoker

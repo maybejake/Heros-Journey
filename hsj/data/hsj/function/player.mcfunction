@@ -2,7 +2,7 @@
 execute if score @s hsj_fish_caught matches 1.. run function hsj:eyes/aquatic/loot/roll
 
 #amber eye
-execute if score @s hsj_creaking_killed matches 1.. run function hsj:eyes/amber/loot/roll
+execute if score @s hsj.creaking_killed matches 1.. run function hsj:eyes/amber/main
 
 #bound eye
 execute if score @s hsj_evoker_killed matches 1.. run function hsj:eyes/bound/loot/roll
