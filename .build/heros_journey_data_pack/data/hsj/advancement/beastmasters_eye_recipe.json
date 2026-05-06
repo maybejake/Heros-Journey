@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_eye",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "hsj:beastmasters_eye"
+    ]
+  }
+}

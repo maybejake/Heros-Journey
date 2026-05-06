@@ -1,3 +1,0 @@
-scoreboard players set @s hsj_wither_killed 0
-execute store result score @s hsj_eye_chance run random value 1..100
-execute if score @s hsj_eye_chance matches ..80 as @n[type=minecraft:item,nbt={Item:{id:"minecraft:nether_star"}},distance=..100] at @s run summon minecraft:item ~ ~ ~ {Item:{count:1,id:"minecraft:ender_eye",components:{"minecraft:custom_name":["",{"translate":"hsj:withered","fallback":"Withered Eye","italic":false}],"minecraft:custom_model_data":{"strings":["hsj:withered_eye"]},"minecraft:custom_data":{"hsj_eye":true,"smithed":{"ignore":{"functionality":true,"crafting":true}},"hsj_withered":true},"minecraft:rarity":"epic"}}}

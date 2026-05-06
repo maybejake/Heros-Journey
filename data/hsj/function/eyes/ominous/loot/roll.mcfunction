@@ -1,2 +1,0 @@
-execute store result score @s hsj_eye_chance run random value 1..100
-execute if score @s hsj_eye_chance matches ..5 run data modify block ~ ~ ~ server_data.items_to_eject prepend value {components: {"minecraft:custom_model_data":{"strings":["hsj:ominous_eye"]}, "minecraft:custom_name": ["",{"translate":"hsj:ominous","fallback":"Ominous Eye","italic":false}], "minecraft:rarity": "epic", "minecraft:custom_data": {hsj_ominous: 1b, hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}}}}, count: 1, id: "minecraft:ender_eye"}

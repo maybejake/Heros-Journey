@@ -1,1 +1,0 @@
-$item replace block ~ ~ ~ container.$(slot) with minecraft:ender_eye[minecraft:custom_name=["",{"translate":"hsj:golden","fallback":"Golden Eye","italic":false}],minecraft:custom_model_data={"strings":["hsj:golden_eye"]},minecraft:custom_data={"hsj_eye":true,"smithed":{"ignore":{"functionality":true,"crafting":true}},"hsj_golden":true}, minecraft:rarity=epic]

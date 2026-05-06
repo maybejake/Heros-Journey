@@ -1,0 +1,3 @@
+advancement revoke @s only hsj:queens_eye_loot
+execute store result score @s hsj_eye_chance run random value 1..100
+execute if score @s hsj_eye_chance matches ..5 as @n[type=minecraft:item,nbt={Age:0s},distance=..40] at @s run summon minecraft:item ~ ~ ~ {Item:{count:1,id:"minecraft:ender_eye",components:{"minecraft:custom_name":["",{"translate":"hsj.queens","fallback":"Queen's Eye","italic":false}],"minecraft:custom_model_data":{"strings":["hsj:queens_eye"]},"minecraft:custom_data":{"hsj_eye":true,"smithed":{"ignore":{"functionality":true,"crafting":true}},"hsj_queens":true},"minecraft:rarity":"epic"}}}

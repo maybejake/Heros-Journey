@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye",
+      "components": {
+        "minecraft:custom_model_data": {"strings":["hsj:curious_eye"]}
+      }
+    },
+    "title": {
+      "translate": "hsj.adv_curious_title",
+      "fallback": "The Curious Eye"
+    },
+    "description": {
+      "translate": "hsj.adv_curious_desc",
+      "fallback": "Find the Curious Eye in an enemy outpost"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "hsj:visible/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_eye",
+            "components": {
+              "minecraft:custom_data": "{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_curious:1b}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

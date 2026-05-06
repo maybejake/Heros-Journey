@@ -1,1 +1,0 @@
-give @s minecraft:ender_eye[minecraft:custom_name=["",{"translate":"hsj:curious","fallback":"Curious Eye","italic":false}],minecraft:custom_model_data={"strings":["hsj:curious_eye"]},minecraft:custom_data={"hsj_eye":true,"smithed":{"ignore":{"functionality":true,"crafting":true}},"hsj_curious":true}, minecraft:rarity=epic]

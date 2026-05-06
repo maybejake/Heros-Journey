@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+	  "end": "hsj:item/entombed_eye_top",
+	  "side": "hsj:item/entombed_eye_side"
+	}
+  }

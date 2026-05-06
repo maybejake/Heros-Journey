@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ender_eye"
+      },
+      "title": "Hero's Journey",
+      "description": {
+        "translate": "hsj.adv_root_desc",
+        "fallback": "A journey to The End!"
+      },
+      "background": "minecraft:entity/end_portal",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

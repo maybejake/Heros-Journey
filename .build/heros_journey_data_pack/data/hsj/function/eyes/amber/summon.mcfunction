@@ -1,0 +1,3 @@
+execute if entity @n[type=minecraft:item_display, tag=hsj_amber, distance=..10] run return run function hsj:eyes/remove
+execute align xyz run summon minecraft:item_display ~0.5 ~0.75 ~0.5 {Tags: ["hsj_display", "smithed.entity", "smithed.strict", "hsj_amber"], item: {id: "minecraft:barrier", Count: 1, components: {custom_model_data: {strings: ["hsj:amber_eye"]}}}, item_display: "none", transformation: [0.505f, 0.0f, 0.0f, 0.0f, 0.0f, 0.505f, 0.0f, 0.0f, 0.0f, 0.0f, 0.505f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f], brightness: {sky: 15, block: 15}}
+execute as @n[type=minecraft:item_display, tag=hsj_amber] at @s rotated as @s run function hsj:eyes/rotate_display

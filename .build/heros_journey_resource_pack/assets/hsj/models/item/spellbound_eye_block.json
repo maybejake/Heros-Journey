@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+	  "end": "hsj:item/spellbound_eye_top",
+	  "side": "hsj:item/spellbound_eye_side"
+	}
+  }

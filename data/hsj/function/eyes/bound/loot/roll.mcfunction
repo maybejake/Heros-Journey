@@ -1,3 +1,0 @@
-scoreboard players set @s hsj_evoker_killed 0
-execute store result score @s hsj_eye_chance run random value 1..100
-execute if score @s hsj_eye_chance matches ..10 as @n[type=minecraft:item,nbt={Item:{id:"minecraft:totem_of_undying"}},distance=..100] run data modify entity @s Item set value {components:{"minecraft:custom_model_data":{"strings":["hsj:bound_eye"]},"minecraft:custom_name":["",{"translate":"hsj:bound","fallback":"Bound Eye","italic":false}],"minecraft:rarity":"epic","minecraft:custom_data":{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_bound:1b}},count:1,id:"minecraft:ender_eye"}

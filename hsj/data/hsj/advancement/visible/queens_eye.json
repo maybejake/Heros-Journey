@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye",
+      "components": {
+        "minecraft:custom_model_data": {"strings":["hsj:queens_eye"]}
+      }
+    },
+    "title": {
+      "translate": "hsj.adv_queens_title",
+      "fallback": "The Queen's Eye"
+    },
+    "description": {
+      "translate": "hsj.adv_queens_desc",
+      "fallback": "Find the Queen's Eye within a hive"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "hsj:visible/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_eye",
+            "components": {
+              "minecraft:custom_data": "{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_queens:1b}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

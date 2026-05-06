@@ -1,0 +1,13 @@
+data_pack:
+  load: .
+
+resource_pack:
+  load:
+    - .
+
+pipeline:
+  - hsj.plugins.release
+  - mecha
+
+version: 2.0.0
+name: HerosJourney

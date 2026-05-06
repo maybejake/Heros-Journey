@@ -1,3 +1,0 @@
-scoreboard players set @s hsj_elder_killed 0
-execute store result score @s hsj_eye_chance run random value 1..100
-execute if score @s hsj_eye_chance matches ..30 as @n[type=minecraft:item,nbt={Item:{id:"minecraft:wet_sponge"}},distance=..100] at @s run summon minecraft:item ~ ~ ~ {Item:{count:1,id:"minecraft:ender_eye",components:{"minecraft:custom_name":["",{"translate":"hsj:elder","fallback":"Elder Eye","italic":false}],"minecraft:custom_model_data":{"strings":["hsj:elder_eye"]},"minecraft:custom_data":{"hsj_eye":true,"smithed":{"ignore":{"functionality":true,"crafting":true}},"hsj_elder":true},"minecraft:rarity":"epic"}}}

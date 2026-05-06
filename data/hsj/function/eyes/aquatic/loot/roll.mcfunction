@@ -1,3 +1,0 @@
-scoreboard players set @s hsj_fish_caught 0
-execute store result score @s hsj_eye_chance run random value 1..100
-execute if score @s hsj_eye_chance matches ..3 as @n[type=minecraft:item,nbt={Age:0s},distance=..40] run data modify entity @s Item set value {components:{"minecraft:custom_model_data":{"strings":["hsj:aquatic_eye"]},"minecraft:custom_name":["",{"translate":"hsj:aquatic","fallback":"Aquatic Eye","italic":false}],"minecraft:rarity":"epic","minecraft:custom_data":{hsj_eye:1b,smithed:{ignore:{functionality:1b,crafting:1b}},hsj_aquatic:1b}},count:1,id:"minecraft:ender_eye"}

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+	  "end": "hsj:item/opulent_eye_top",
+	  "side": "hsj:item/opulent_eye_side"
+	}
+  }

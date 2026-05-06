@@ -1,2 +1,0 @@
-tag @s add hsj_villager_done
-data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:12,xp:30,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:40},buyB:{id:"minecraft:amethyst_shard",count:3},sell:{count:1,id:"minecraft:ender_eye",components:{"minecraft:custom_name":["",{"translate":"hsj:forged","fallback":"Forged Eye","italic":false}],"minecraft:custom_model_data":{"strings":["hsj:forged_eye"]},"minecraft:custom_data":{"hsj_eye":true,"smithed":{"ignore":{"functionality":true,"crafting":true}},"hsj_forged":true},"minecraft:rarity":"epic"}}}
