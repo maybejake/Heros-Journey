@@ -1,4 +1,4 @@
-tellraw @a [{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false},{"translate":"hsj.loaded","font":"minecraft:default","fallback":" loaded!","color":"white","bold":false}]
+tellraw @a[gamemode=creative] [{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false},{"translate":"hsj.loaded","font":"minecraft:default","fallback":" loaded!","color":"white","bold":false}]
 
 #raycast
 scoreboard objectives add hsj_raycast_hit dummy

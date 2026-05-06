@@ -3,7 +3,6 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "player": [],
         "location": [
           {
             "condition": "minecraft:all_of",
@@ -19,13 +18,11 @@
                 "terms": [
                   {
                     "condition": "minecraft:block_state_property",
-                    "block": "minecraft:suspicious_gravel",
-                    "properties": {}
+                    "block": "minecraft:suspicious_gravel"
                   },
                   {
                     "condition": "minecraft:block_state_property",
-                    "block": "minecraft:suspicious_sand",
-                    "properties": {}
+                    "block": "minecraft:suspicious_sand"
                   }
                 ]
               }
@@ -36,6 +33,6 @@
     }
   },
   "rewards": {
-    "function": "hsj:eyes/archaic/loot/setup"
+    "function": "hsj:eyes/archaic/main"
   }
 }
