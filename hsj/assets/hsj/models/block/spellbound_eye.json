@@ -1,6 +1,7 @@
 {
 	"parent": "hsj:block/portal_eye",
 	"textures": {
-		"0": "hsj:block/spellbound_eye"
+		"0": "hsj:block/spellbound_eye",
+		"particle": "hsj:item/spellbound_eye"
 	}
 }

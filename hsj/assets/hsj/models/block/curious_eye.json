@@ -1,6 +1,7 @@
 {
 	"parent": "hsj:block/portal_eye",
 	"textures": {
-		"0": "hsj:block/curious_eye"
+		"0": "hsj:block/curious_eye",
+		"particle": "hsj:item/curious_eye"
 	}
 }

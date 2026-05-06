@@ -2,7 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "hsj:block/forged_eye"
+		"0": "hsj:block/forged_eye",
+		"particle": "hsj:item/forged_eye"
 	},
 	"elements": [
 		{
@@ -54,6 +55,24 @@
 			"from": [6.4, 16, 6.4],
 			"to": [7.4, 16, 8.4],
 			"rotation": {"x": -135, "y": 0, "z": 90, "origin": [6.4, 16, 6.4]},
+			"faces": {
+				"up": {"uv": [14, 15, 16, 16], "texture": "#0"},
+				"down": {"uv": [14, 15, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.49289, 16.5, 10.24558],
+			"to": [8.49289, 16.5, 12.24558],
+			"rotation": {"x": -45, "y": 0, "z": 90, "origin": [7.99289, 16.5, 7.99289]},
+			"faces": {
+				"up": {"uv": [14, 15, 16, 16], "texture": "#0"},
+				"down": {"uv": [14, 15, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.49289, 16.5, 3.7402],
+			"to": [8.49289, 16.5, 5.7402],
+			"rotation": {"x": -45, "y": 0, "z": 90, "origin": [7.99289, 16.5, 7.99289]},
 			"faces": {
 				"up": {"uv": [14, 15, 16, 16], "texture": "#0"},
 				"down": {"uv": [14, 15, 16, 16], "texture": "#0"}
