@@ -48,8 +48,10 @@
     "advancement.hsj.spellbound_eye.desc": "Uncover the Spellbound Eye while enchanting an item",
     "advancement.hsj.withered_eye.name": "The Withered Eye",
     "advancement.hsj.withered_eye.desc": "Retrieve the Withered Eye from a beast with three heads",
-    "advancement.hsj.root_eye.name": "Gateway",
-    "advancement.hsj.root_eye.desc": "Endward bound",
+    "advancement.hsj.root.name": "Gateway",
+    "advancement.hsj.root.desc": "Endward bound",
+    "advancement.hsj.all_eyes.name": "Monomyth",
+    "advancement.hsj.all_eyes.desc": "Obtain every eye in Hero's Journey",
 
     "hsj.eye_rejected": "The portal rejects the eye... More powerful eyes are needed...",
     "hsj.loaded":" loaded!",

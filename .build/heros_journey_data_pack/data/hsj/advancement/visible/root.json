@@ -3,8 +3,8 @@
       "icon": {
         "id": "minecraft:ender_eye"
       },
-      "title": {"translate":"advancement.hsj.root_eye.name","fallback":"Gateway"},
-      "description": [{"translate":"advancement.hsj.root_eye.desc","fallback":"Endward bound"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+      "title": {"translate":"advancement.hsj.root.name","fallback":"Gateway"},
+      "description": [{"translate":"advancement.hsj.root.desc","fallback":"Endward bound"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
       "background": "minecraft:block/obsidian",
       "show_toast": false,
       "announce_to_chat": false
