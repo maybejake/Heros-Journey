@@ -1,4 +1,4 @@
-scoreboard players set $catch_check hsj.dummy 0
+scoreboard players set $item_check hsj.dummy 0
 
-execute at @a[tag=hsj.rod_hooked] as @e[type=minecraft:item,distance=..100] run function hsj:eyes/aquatic/on_catch
+execute at @a[tag=hsj.rod_hooked] as @e[type=minecraft:item,distance=..100] run function hsj:eyes/aquatic/on_item
 tag @a[tag=hsj.rod_hooked] remove hsj.rod_hooked
