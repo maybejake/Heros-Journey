@@ -1,4 +1,4 @@
-advancement revoke @s only hsj:archaeology
+advancement revoke @s only hsj:action/archaeology
 
 execute store result score $chance hsj.dummy run random value 1..100
 execute if score $chance hsj.dummy matches 6.. run return fail

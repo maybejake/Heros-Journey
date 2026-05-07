@@ -1,4 +1,4 @@
-advancement revoke @s only hsj:golden_eye_loot
+advancement revoke @s only hsj:loot/jungle_temple
 
 execute store result score $chance hsj.dummy run random value 1..10
 execute if score $chance hsj.dummy matches 3.. run return fail

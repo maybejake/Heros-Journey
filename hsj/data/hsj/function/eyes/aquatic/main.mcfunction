@@ -1,4 +1,4 @@
-advancement revoke @s only hsj:rod_hooked
+advancement revoke @s only hsj:action/hook_rod
 
 execute store result score $chance hsj.dummy run random value 1..100
 execute if score $chance hsj.dummy matches 100.. run return fail

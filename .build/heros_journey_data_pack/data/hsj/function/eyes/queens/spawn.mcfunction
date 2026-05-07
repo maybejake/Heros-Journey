@@ -1,1 +1,3 @@
-execute align xyz run summon minecraft:item ~0.5 ~0.6 ~0.5 {Item: {count: 1, id: "minecraft:ender_eye", components: {"minecraft:custom_name": ["", {translate: "hsj.queens", fallback: "Queen's Eye", italic: false}], "minecraft:custom_model_data": {strings: ["hsj:queens_eye"]}, "minecraft:custom_data": {hsj_eye: true, smithed: {ignore: {functionality: true, crafting: true}}, hsj_queens: true}, "minecraft:rarity": "epic"}}}
+scoreboard players set $honeycomb_check hsj.dummy 0
+execute at @a[tag=hsj.beehive_shearer] as @e[type=minecraft:item, predicate=hsj:honeycomb, distance=..100] at @s run function hsj:eyes/queens/on_honeycomb
+tag @a[tag=hsj.beehive_shearer] remove hsj.beehive_shearer
