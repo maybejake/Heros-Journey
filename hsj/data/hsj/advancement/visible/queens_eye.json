@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:queens_eye"
       }
     },
-    "title": {"translate":"hsj.adv_queens.name","fallback":"The Queen's Eye"},
-    "description": [{"translate":"hsj.adv_queens.desc","fallback":"Find the Queen's Eye within a hive"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.queens_eye.name","fallback":"The Queen's Eye"},
+    "description": [{"translate":"advancement.hsj.queens_eye.desc","fallback":"Find the Queen's Eye within a hive"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

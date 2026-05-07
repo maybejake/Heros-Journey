@@ -1,6 +1,7 @@
 {
   "values": [
     "hsj:loaded",
+    "hsj:tick_20",
     "hsj.iris:setup/load"
    ] 
 }

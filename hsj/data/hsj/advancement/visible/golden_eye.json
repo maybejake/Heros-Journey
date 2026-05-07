@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:golden_eye"
       }
     },
-    "title": {"translate":"hsj.adv_golden.name","fallback":"The Golden Eye"},
-    "description": [{"translate":"hsj.adv_golden.desc","fallback":"Find the Golden Eye in a temple in the jungle"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.golden_eye.name","fallback":"The Golden Eye"},
+    "description": [{"translate":"advancement.hsj.golden_eye.desc","fallback":"Find the Golden Eye in a temple in the jungle"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

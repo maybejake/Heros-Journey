@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:forged_eye"
       }
     },
-    "title": {"translate":"hsj.adv_forged.name","fallback":"The Forged Eye"},
-    "description": [{"translate":"hsj.adv_forged.desc","fallback":"Obtain the Forged Eye from a master weaponsmith"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.forged_eye.name","fallback":"The Forged Eye"},
+    "description": [{"translate":"advancement.hsj.forged_eye.desc","fallback":"Obtain the Forged Eye from a master weaponsmith"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

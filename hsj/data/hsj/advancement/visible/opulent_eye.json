@@ -7,10 +7,10 @@
       }
     },
     "title": {
-      "translate": "hsj.adv_opulent.name",
+      "translate": "advancement.hsj.opulent_eye.name",
       "fallback": "The Opulent Eye"
     },
-    "description": [{"translate":"hsj.adv_opulent.desc","fallback":"Find the Opulent Eye in a buried chest full of treasure"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "description": [{"translate":"advancement.hsj.opulent_eye.desc","fallback":"Find the Opulent Eye in a buried chest full of treasure"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

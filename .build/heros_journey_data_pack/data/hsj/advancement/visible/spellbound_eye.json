@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:spellbound_eye"
       }
     },
-    "title": {"translate":"hsj.adv_spellbound.name","fallback":"The Spellbound Eye"},
-    "description": [{"translate":"hsj.adv_spellbound.desc","fallback":"Uncover the Spellbound Eye while enchanting an item"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.spellbound_eye.name","fallback":"The Spellbound Eye"},
+    "description": [{"translate":"advancement.hsj.spellbound_eye.desc","fallback":"Uncover the Spellbound Eye while enchanting an item"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

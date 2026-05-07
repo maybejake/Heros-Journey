@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:eldritch_eye"
       }
     },
-    "title": {"translate":"hsj.adv_eldritch.name","fallback":"The eldritch Eye"},
-    "description": [{"translate":"hsj.adv_eldritch.desc","fallback":"Find the Eldritch Eye in a archaic city deep beneath the surface"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.eldritch_eye.name","fallback":"The eldritch Eye"},
+    "description": [{"translate":"advancement.hsj.eldritch_eye.desc","fallback":"Find the Eldritch Eye in a archaic city deep beneath the surface"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

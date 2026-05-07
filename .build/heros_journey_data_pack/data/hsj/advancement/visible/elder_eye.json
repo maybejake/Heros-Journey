@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:elder_eye"
       }
     },
-    "title": {"translate":"hsj.adv_elder.name","fallback":"The Elder Eye"},
-    "description": [{"translate":"hsj.adv_elder.desc","fallback":"Retrieve the Elder Eye from an ancient guardian"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.elder_eye.name","fallback":"The Elder Eye"},
+    "description": [{"translate":"advancement.hsj.elder_eye.desc","fallback":"Retrieve the Elder Eye from an ancient guardian"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

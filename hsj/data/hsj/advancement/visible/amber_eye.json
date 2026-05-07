@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:amber_eye"
       }
     },
-    "title": {"translate":"hsj.adv_amber.name","fallback":"The Amber Eye"},
-    "description": [{"translate":"hsj.adv_amber.desc","fallback":"Find the Amber Eye at the heart of a strange forest"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.amber_eye.name","fallback":"The Amber Eye"},
+    "description": [{"translate":"advancement.hsj.amber_eye.desc","fallback":"Find the Amber Eye at the heart of a strange forest"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

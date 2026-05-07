@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:curious_eye"
       }
     },
-    "title": {"translate":"hsj.adv_curious.name","fallback":"The Curious Eye"},
-    "description": [{"translate":"hsj.adv_curious.desc","fallback":"Find the Curious Eye in an enemy outpost"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.curious_eye.name","fallback":"The Curious Eye"},
+    "description": [{"translate":"advancement.hsj.curious_eye.desc","fallback":"Find the Curious Eye in an enemy outpost"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

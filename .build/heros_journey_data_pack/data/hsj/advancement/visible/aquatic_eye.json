@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:aquatic_eye"
       }
     },
-    "title": {"translate":"hsj.adv_aquatic.name","fallback":"The Aquatic Eye"},
-    "description": [{"translate":"hsj.adv_aquatic.desc","fallback":"Catch the Aquatic Eye while trawling the deep"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.aquatic_eye.name","fallback":"The Aquatic Eye"},
+    "description": [{"translate":"advancement.hsj.aquatic_eye.desc","fallback":"Catch the Aquatic Eye while trawling the deep"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

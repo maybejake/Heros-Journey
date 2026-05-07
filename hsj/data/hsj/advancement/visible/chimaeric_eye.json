@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:chimaeric_eye"
       }
     },
-    "title": {"translate":"hsj.adv_chimaeric.name","fallback":"The Chimaeric Eye"},
-    "description": [{"translate":"hsj.adv_chimaeric.desc","fallback":"Craft the Chimaeric Eye with the spoils of exotic creatures"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.chimaeric_eye.name","fallback":"The Chimaeric Eye"},
+    "description": [{"translate":"advancement.hsj.chimaeric_eye.desc","fallback":"Craft the Chimaeric Eye with the spoils of exotic creatures"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

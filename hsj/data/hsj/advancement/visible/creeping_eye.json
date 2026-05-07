@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:creeping_eye"
       }
     },
-    "title": {"translate":"hsj.adv_creeping.name","fallback":"The Creeping Eye"},
-    "description": [{"translate":"hsj.adv_creeping.desc","fallback":"Find the Creeping Eye in a desert tomb"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.creeping_eye.name","fallback":"The Creeping Eye"},
+    "description": [{"translate":"advancement.hsj.creeping_eye.desc","fallback":"Find the Creeping Eye in a desert tomb"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:ominous_eye"
       }
     },
-    "title": {"translate":"hsj.adv_ominous.name","fallback":"The Ominous Eye"},
-    "description": [{"translate":"hsj.adv_ominous.desc","fallback":"Find the Ominous Eye at the end of an arduous trial"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.ominous_eye.name","fallback":"The Ominous Eye"},
+    "description": [{"translate":"advancement.hsj.ominous_eye.desc","fallback":"Find the Ominous Eye at the end of an arduous trial"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

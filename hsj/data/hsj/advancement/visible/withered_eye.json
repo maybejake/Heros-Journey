@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:withered_eye"
       }
     },
-    "title": {"translate":"hsj.adv_withered.name","fallback":"The Withered Eye"},
-    "description": [{"translate":"hsj.adv_withered.desc","fallback":"Retrieve the Withered Eye from a beast with three heads"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.withered_eye.name","fallback":"The Withered Eye"},
+    "description": [{"translate":"advancement.hsj.withered_eye.desc","fallback":"Retrieve the Withered Eye from a beast with three heads"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -6,8 +6,8 @@
         "minecraft:item_model": "hsj:bound_eye"
       }
     },
-    "title": {"translate":"hsj.adv_bound.name","fallback":"The Bound Eye"},
-    "description": [{"translate":"hsj.adv_bound.desc","fallback":"Retrieve the Bound Eye from a mage of the mansion"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.bound_eye.name","fallback":"The Bound Eye"},
+    "description": [{"translate":"advancement.hsj.bound_eye.desc","fallback":"Retrieve the Bound Eye from a mage of the mansion"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
