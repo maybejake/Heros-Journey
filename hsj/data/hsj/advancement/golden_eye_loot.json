@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "hsj:eyes/golden/loot/setup"
+    "function": "hsj:eyes/golden/main"
   }
 }

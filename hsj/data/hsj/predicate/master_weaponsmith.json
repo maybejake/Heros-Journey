@@ -3,6 +3,6 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:villager",
-    "nbt": "{VillagerData:{level:5,profession:\"minecraft:armorer\"}}"
+    "nbt": {"VillagerData":{"level":5,"profession":"minecraft:weaponsmith"}}
   }
 }
