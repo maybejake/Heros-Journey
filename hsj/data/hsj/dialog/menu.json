@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:multi_action",
+    "title": {
+    "translate": "hsj.name"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {"translate":"hsj.dialog.description"},
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate":"hsj.dialog.info",
+        "color": "gray",
+        "with": [{"translate": "hsj.version"}]
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": {"translate":"hsj.dialog.website"},
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/datapack/heros-journey"
+      }
+    },
+    {
+      "label": {"translate":"hsj.dialog.issues"},
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/maybejake/Heros-Journey/issues"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 212
+  },
+  "after_action": "wait_for_response"
+}

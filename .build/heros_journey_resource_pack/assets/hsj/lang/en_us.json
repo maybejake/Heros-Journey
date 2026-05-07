@@ -53,5 +53,10 @@
   "hsj.loaded": " loaded!",
   "hsj.uninstalled": " uninstalled!",
   "hsj.tooltip": "\ua001 Hero's Journey",
+  "hsj.name": "Hero's Journey",
+  "hsj.dialog.description": "A datapack inspired by End Remastered, gather eyes and go to The End!",
+  "hsj.dialog.info": "%1$s\nBy maybejake",
+  "hsj.dialog.website": "Website",
+  "hsj.dialog.issues": "Issues",
   "hsj.version": "v2.0.0"
 }
