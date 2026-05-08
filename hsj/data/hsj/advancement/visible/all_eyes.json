@@ -64,14 +64,14 @@
         ]
       }
     },
-    "hsj:chimaeric_eye": {
+    "hsj:chimeric_eye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.chimaeric_eye"}}}
+              "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.chimeric_eye"}}}
             }
           }
         ]

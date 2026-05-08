@@ -1,7 +1,0 @@
-{
-	"parent": "hsj:block/portal_eye_sided",
-	"textures": {
-		"0": "hsj:block/chimaeric_eye",
-		"particle": "hsj:item/chimaeric_eye"
-	}
-}

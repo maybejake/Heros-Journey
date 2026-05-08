@@ -3,11 +3,11 @@
     "icon": {
       "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:item_model": "hsj:chimaeric_eye"
+        "minecraft:item_model": "hsj:chimeric_eye"
       }
     },
-    "title": {"translate":"advancement.hsj.chimaeric_eye.name","fallback":"The Chimaeric Eye"},
-    "description": [{"translate":"advancement.hsj.chimaeric_eye.desc","fallback":"Craft the Chimaeric Eye with the spoils of exotic creatures"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
+    "title": {"translate":"advancement.hsj.chimeric_eye.name","fallback":"The chimeric Eye"},
+    "description": [{"translate":"advancement.hsj.chimeric_eye.desc","fallback":"Craft the chimeric Eye with the spoils of exotic creatures"},{"text":"\n\n"},{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -21,7 +21,7 @@
           {
             "items": "minecraft:poisonous_potato",
             "predicates": {
-              "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.chimaeric_eye"}}}
+              "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.chimeric_eye"}}}
             }
           }
         ]

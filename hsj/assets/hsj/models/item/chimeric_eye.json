@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "hsj:item/chimaeric_eye"
+		"layer0": "hsj:item/chimeric_eye"
 	}
 }

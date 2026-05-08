@@ -8,13 +8,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "hsj:block/chimaeric_eye"
+          "model": "hsj:block/chimeric_eye"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "hsj:item/chimaeric_eye"
+      "model": "hsj:item/chimeric_eye"
     },
     "property": "minecraft:display_context"
   }
