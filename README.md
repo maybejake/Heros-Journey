@@ -1,5 +1,5 @@
 ![herosjourney](https://github.com/user-attachments/assets/e3167a71-1a7a-4f4c-8d47-63d8357df479)
-![herosjourneyeyes](https://github.com/user-attachments/assets/ce7a7bad-b878-463f-8725-1aaf2506c14f)
+<img alt="hsj_eyes" src="https://github.com/user-attachments/assets/cb332ed0-61ca-4299-ab56-4c9d6be61ef1" />
 
 
 ---
