@@ -28,7 +28,7 @@
     "count": 1,
     "components": {
       "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.chimeric_eye"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-      "minecraft:item_name": [{"translate":"hsj.chimeric_eye","fallback":"chimeric Eye"}],
+      "minecraft:item_name": [{"translate":"hsj.chimeric_eye","fallback":"Chimeric Eye"}],
       "minecraft:item_model": "hsj:chimeric_eye",
       "minecraft:lore": [{"translate":"hsj.tooltip","font":"hsj:tooltip","color":"white","italic":false}],
       "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
