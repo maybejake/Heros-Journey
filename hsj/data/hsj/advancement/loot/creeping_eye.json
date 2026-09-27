@@ -1,13 +1,13 @@
 {
   "criteria": {
-    "requirement": {
+    "loot_tables": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/pillager_outpost"
+        "loot_tables": "#hsj:loot/creeping_eye"
       }
     }
   },
   "rewards": {
-    "function": "hsj:eyes/curious/main"
+    "function": "hsj:eyes/creeping/main"
   }
 }

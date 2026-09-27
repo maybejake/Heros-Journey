@@ -2,7 +2,7 @@ tag @s add hsj.checked_villager
 
 data remove storage hsj:temp trade
 
-function hsj:loot_table_to_data/main {loot_table:"hsj:archaic_eye"}
+function hsj:loot_table/to_data {loot_table:"hsj:forged_eye"}
 data modify storage hsj:temp trade.sell set from storage hsj:temp loot_table.data
 
 data modify storage hsj:temp trade.buy set value {"id":"minecraft:emerald", count:40}

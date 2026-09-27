@@ -1,4 +1,4 @@
-advancement revoke @s only hsj:loot/ancient_city
+advancement revoke @s only hsj:loot/eldritch_eye
 
 execute store result score $chance hsj.dummy run random value 1..10
 execute if score $chance hsj.dummy matches 2.. run return fail

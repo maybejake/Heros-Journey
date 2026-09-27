@@ -3,11 +3,11 @@
     "requirement": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/buried_treasure"
+        "loot_tables": "#hsj:loot/eldritch_eye"
       }
     }
   },
   "rewards": {
-    "function": "hsj:eyes/opulent/main"
+    "function": "hsj:eyes/eldritch/main"
   }
 }

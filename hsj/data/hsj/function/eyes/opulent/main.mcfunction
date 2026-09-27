@@ -1,4 +1,4 @@
-advancement revoke @s only hsj:loot/buried_treasure
+advancement revoke @s only hsj:loot/opulent_eye
 
 execute store result score $chance hsj.dummy run random value 1..10
 execute if score $chance hsj.dummy matches 4.. run return fail

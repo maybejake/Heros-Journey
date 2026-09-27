@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:poisonous_potato",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {"hsj":{"eye":{"type":"hsj.golden_eye"}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:item_name": [{"translate":"hsj.golden_eye","fallback":"Golden Eye"}],

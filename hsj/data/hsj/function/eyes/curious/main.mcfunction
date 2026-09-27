@@ -1,4 +1,4 @@
-advancement revoke @s only hsj:loot/pillager_outpost
+advancement revoke @s only hsj:loot/curious_eye
 
 execute store result score $chance hsj.dummy run random value 1..10
 execute if score $chance hsj.dummy matches 6.. run return fail

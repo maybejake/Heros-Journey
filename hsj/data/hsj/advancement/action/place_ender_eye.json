@@ -3,26 +3,24 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "items": "minecraft:ender_eye"
-                }
-              },
-              {
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:end_portal_frame",
-                "properties": {
-                  "eye": "true"
-                }
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:ender_eye"
               }
-            ]
-          }
-        ]
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:end_portal_frame",
+              "state": {
+                "eye": "true"
+              }
+            }
+          ]
+        }
       }
     }
   },

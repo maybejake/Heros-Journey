@@ -1,0 +1,4 @@
+{"values":[
+    "minecraft:chests/desert_pyramid",
+    {"id":"myriad:chests/badlands_temple", "required":false}
+]}

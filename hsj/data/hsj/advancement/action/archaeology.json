@@ -3,32 +3,30 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "items": "minecraft:brush"
-                }
-              },
-              {
-                "condition": "minecraft:any_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:suspicious_gravel"
-                  },
-                  {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:suspicious_sand"
-                  }
-                ]
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:brush"
               }
-            ]
-          }
-        ]
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "minecraft:suspicious_gravel"
+                },
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "minecraft:suspicious_sand"
+                }
+              ]
+            }
+          ]
+        }
       }
     }
   },

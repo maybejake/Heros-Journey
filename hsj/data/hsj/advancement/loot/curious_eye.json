@@ -1,13 +1,13 @@
 {
   "criteria": {
-    "requirement": {
+    "loot_tables": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/ancient_city"
+        "loot_tables": "#hsj:loot/curious_eye"
       }
     }
   },
   "rewards": {
-    "function": "hsj:eyes/eldritch/main"
+    "function": "hsj:eyes/curious/main"
   }
 }
